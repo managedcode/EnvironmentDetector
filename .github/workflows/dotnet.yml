@@ -31,7 +31,7 @@ jobs:
       - name: Test MSTest
         run: dotnet test ManagedCode.TestsDetector.MSTest/ManagedCode.TestsDetector.MSTest.csproj
       - name: Test NUnit
-        run: dotnet test ManagedCode.TestsDetector.MSTest/ManagedCode.TestsDetector.NUnit.csproj
+        run: dotnet test ManagedCode.TestsDetector.NUnit/ManagedCode.TestsDetector.NUnit.csproj
       - name: Test XUnit
-        run: dotnet test ManagedCode.TestsDetector.MSTest/ManagedCode.TestsDetector.XUnit.csproj
+        run: dotnet test ManagedCode.TestsDetector.XUnit/ManagedCode.TestsDetector.XUnit.csproj
     
