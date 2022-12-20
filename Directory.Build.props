@@ -17,8 +17,8 @@
         <RepositoryUrl>https://github.com/managedcode/TestsDetector</RepositoryUrl>
         <PackageProjectUrl>https://github.com/managedcode/TestsDetector</PackageProjectUrl>
         <Product>Managed Code - TestsDetector</Product>
-        <Version>1.0.0</Version>
-        <PackageVersion>1.0.0</PackageVersion>
+        <Version>1.0.1</Version>
+        <PackageVersion>1.0.1</PackageVersion>
 
     </PropertyGroup>
     <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
