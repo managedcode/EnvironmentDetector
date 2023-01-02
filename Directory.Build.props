@@ -17,8 +17,8 @@
         <RepositoryUrl>https://github.com/managedcode/EnvironmentDetector</RepositoryUrl>
         <PackageProjectUrl>https://github.com/managedcode/EnvironmentDetector</PackageProjectUrl>
         <Product>Managed Code - EnvironmentDetector</Product>
-        <Version>1.0.2</Version>
-        <PackageVersion>1.0.2</PackageVersion>
+        <Version>1.0.3</Version>
+        <PackageVersion>1.0.3</PackageVersion>
 
     </PropertyGroup>
     <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">

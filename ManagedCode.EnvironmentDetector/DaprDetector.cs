@@ -4,7 +4,7 @@ public static class DaprDetector
 {
     static DaprDetector()
     {
-        var x = Environment.GetEnvironmentVariables().Keys.Cast<string>()
+        IsInDapr = Environment.GetEnvironmentVariables().Keys.Cast<string>()
             .Any(k => k.ToUpperInvariant().Contains("DAPR_"));
     }
 
