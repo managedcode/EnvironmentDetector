@@ -5,12 +5,12 @@ namespace ManagedCode.EnvironmentDetector.Extensions;
 
 public static class DockerDetectorExtensions
 {
-    public static bool IsKubernetes(this IHostEnvironment hostEnvironment)
+    public static bool IsDocker(this IHostEnvironment hostEnvironment)
     {
         return DockerDetector.IsInDocker;
     }
     
-    public static bool IsKubernetes(this IServiceCollection serviceCollection)
+    public static bool IsDocker(this IServiceCollection serviceCollection)
     {
         return DockerDetector.IsInDocker;
     }
