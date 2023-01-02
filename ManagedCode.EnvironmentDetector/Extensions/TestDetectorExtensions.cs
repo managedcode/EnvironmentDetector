@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ManagedCode.TestsDetector.Extensions;
+namespace ManagedCode.EnvironmentDetector.Extensions;
 
 public static class TestDetectorExtensions
 {

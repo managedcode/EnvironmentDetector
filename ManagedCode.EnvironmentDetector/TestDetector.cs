@@ -1,4 +1,4 @@
-namespace ManagedCode.TestsDetector;
+namespace ManagedCode.EnvironmentDetector;
 
 public static class TestDetector
 {

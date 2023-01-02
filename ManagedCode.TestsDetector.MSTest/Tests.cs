@@ -1,4 +1,4 @@
-using ManagedCode.TestsDetector;
+using ManagedCode.EnvironmentDetector;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ManagedCode.TestsDetector.MSTest;
@@ -28,5 +28,17 @@ public class Tests
     public void XUnitDetectorTest()
     {
         Assert.IsFalse(XUnitDetector.IsInTest);
+    }
+    
+    [TestMethod]
+    public void KubernetesDetectorTest()
+    {
+        Assert.IsFalse(KubernetesDetector.IsInKubernetes);
+    }
+    
+    [TestMethod]
+    public void DaprDetectorTest()
+    {
+        Assert.IsFalse(DaprDetector.IsInDapr);
     }
 }

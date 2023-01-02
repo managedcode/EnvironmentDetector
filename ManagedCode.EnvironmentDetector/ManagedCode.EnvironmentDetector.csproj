@@ -9,8 +9,8 @@
 
     <!--NuGet-->
     <PropertyGroup>
-        <Title>ManagedCode.TestsDetector</Title>
-        <PackageId>ManagedCode.TestsDetector</PackageId>
+        <Title>ManagedCode.EnvironmentDetector</Title>
+        <PackageId>ManagedCode.EnvironmentDetector</PackageId>
         <Description>Tests deteror</Description>
         <PackageTags>managedcode, Tests, Detector, TestsDetector, unit tests</PackageTags>
     </PropertyGroup>

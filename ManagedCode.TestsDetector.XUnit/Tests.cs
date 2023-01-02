@@ -1,4 +1,4 @@
-using ManagedCode.TestsDetector;
+using ManagedCode.EnvironmentDetector;
 using Xunit;
 
 namespace ManagedCode.TestsDetector.XUnit;

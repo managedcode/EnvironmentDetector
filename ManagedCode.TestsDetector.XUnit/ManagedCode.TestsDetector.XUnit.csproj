@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ManagedCode.TestsDetector\ManagedCode.TestsDetector.csproj" />
+      <ProjectReference Include="..\ManagedCode.EnvironmentDetector\ManagedCode.EnvironmentDetector.csproj" />
     </ItemGroup>
 
 </Project>

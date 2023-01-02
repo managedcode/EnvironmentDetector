@@ -1,4 +1,4 @@
-using ManagedCode.TestsDetector;
+using ManagedCode.EnvironmentDetector;
 using NUnit.Framework;
 
 namespace ManagedCode.TestsDetector.NUnit;

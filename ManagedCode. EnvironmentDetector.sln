@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedCode.TestsDetector", "ManagedCode.TestsDetector\ManagedCode.TestsDetector.csproj", "{B89092DD-40EC-486A-BE2F-1A873B1F1A5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedCode.EnvironmentDetector", "ManagedCode.EnvironmentDetector\ManagedCode.EnvironmentDetector.csproj", "{B89092DD-40EC-486A-BE2F-1A873B1F1A5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedCode.TestsDetector.MSTest", "ManagedCode.TestsDetector.MSTest\ManagedCode.TestsDetector.MSTest.csproj", "{497D53CC-8D1C-4C28-AD63-029974B9F975}"
 EndProject
