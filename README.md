@@ -1,28 +1,28 @@
-# TestsDetector
+# EnvironmentDetector
 
-[![.NET](https://github.com/managedcode/TestsDetector/actions/workflows/dotnet.yml/badge.svg)](https://github.com/managedcode/TestsDetector/actions/workflows/dotnet.yml)
-[![Coverage Status](https://coveralls.io/repos/github/managedcode/TestsDetector/badge.svg?branch=main&service=github)](https://coveralls.io/github/managedcode/TestsDetector?branch=main)
-[![nuget](https://github.com/managedcode/TestsDetector/actions/workflows/nuget.yml/badge.svg?branch=main)](https://github.com/managedcode/TestsDetector/actions/workflows/nuget.yml)
-[![CodeQL](https://github.com/managedcode/TestsDetector/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/managedcode/TestsDetector/actions/workflows/codeql-analysis.yml)
-[![NuGet Package](https://img.shields.io/nuget/v/ManagedCode.TestsDetector.svg)](https://www.nuget.org/packages/ManagedCode.TestsDetector)
+[![.NET](https://github.com/managedcode/EnvironmentDetector/actions/workflows/dotnet.yml/badge.svg)](https://github.com/managedcode/EnvironmentDetector/actions/workflows/dotnet.yml)
+[![Coverage Status](https://coveralls.io/repos/github/managedcode/EnvironmentDetector/badge.svg?branch=main&service=github)](https://coveralls.io/github/managedcode/EnvironmentDetector?branch=main)
+[![nuget](https://github.com/managedcode/EnvironmentDetector/actions/workflows/nuget.yml/badge.svg?branch=main)](https://github.com/managedcode/EnvironmentDetector/actions/workflows/nuget.yml)
+[![CodeQL](https://github.com/managedcode/EnvironmentDetector/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/managedcode/EnvironmentDetector/actions/workflows/codeql-analysis.yml)
+[![NuGet Package](https://img.shields.io/nuget/v/ManagedCode.EnvironmentDetector.svg)](https://www.nuget.org/packages/ManagedCode.EnvironmentDetector)
 
 
 
-TestsDetector is a library that provides a simple way to detect whether your code is running in a test environment or not.
+EnvironmentDetector is a library that provides a simple way to detect whether your code is running in a test environment or not.
 It currently supports detecting MSTest, NUnit, and xUnit test frameworks.
 
 ## Installation
 
-To use TestsDetector in your project, you'll need to install the NuGet package. 
+To use EnvironmentDetector in your project, you'll need to install the NuGet package. 
 You can do this by running the following command in the Package Manager Console:
 
-```Install-Package ManagedCode.TestsDetector```
+```Install-Package ManagedCode.EnvironmentDetector```
 
-Alternatively, you can search for "ManagedCode.TestsDetector" in the NuGet Package Manager in Visual Studio.
+Alternatively, you can search for "ManagedCode.EnvironmentDetector" in the NuGet Package Manager in Visual Studio.
 
 ## Usage
 
-TestsDetector provides two ways to detect whether your code is running in a test environment or not.
+EnvironmentDetector provides two ways to detect whether your code is running in a test environment or not.
 
 The first way is to use the provided extension method IsTests on an instance of IHostEnvironment. Here's an example of how you might use this method in a Razor page:
 
@@ -37,7 +37,7 @@ else
 }
 ```
 
-The second way to use TestsDetector is to use the MSTestDetector.IsInTest static property. This can be useful if you don't have access to an instance of IHostEnvironment, or if you want to check whether you're running in a test environment in a static context. Here's an example of how you might use this property:
+The second way to use EnvironmentDetector is to use the MSTestDetector.IsInTest static property. This can be useful if you don't have access to an instance of IHostEnvironment, or if you want to check whether you're running in a test environment in a static context. Here's an example of how you might use this property:
 
 ```csharp
 using ManagedCode.TestsDetector;
