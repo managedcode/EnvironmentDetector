@@ -14,11 +14,11 @@
         <EnablePackageValidation>true</EnablePackageValidation>
         <PackageReadmeFile>README.md</PackageReadmeFile>
 
-        <RepositoryUrl>https://github.com/managedcode/TestsDetector</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/managedcode/TestsDetector</PackageProjectUrl>
-        <Product>Managed Code - TestsDetector</Product>
-        <Version>1.0.1</Version>
-        <PackageVersion>1.0.1</PackageVersion>
+        <RepositoryUrl>https://github.com/managedcode/EnvironmentDetector</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/managedcode/EnvironmentDetector</PackageProjectUrl>
+        <Product>Managed Code - EnvironmentDetector</Product>
+        <Version>1.0.2</Version>
+        <PackageVersion>1.0.2</PackageVersion>
 
     </PropertyGroup>
     <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
