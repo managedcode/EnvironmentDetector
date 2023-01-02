@@ -9,7 +9,7 @@
 
 
 EnvironmentDetector is a library that provides a simple way to detect whether your code is running in a test environment or not.
-It currently supports detecting MSTest, NUnit, and xUnit test frameworks.
+It currently supports detecting Darp, Kubernetes, Docker, MSTest, NUnit, and xUnit.
 
 ## Installation
 
@@ -31,9 +31,17 @@ if (HostEnvironment.IsTests())
 {
     app.AddFake();
 }
-else
+else if (HostEnvironment.IsKubernetes())
 {
-    app.AddReal();
+    app.AddKubernetes();
+}
+else if (HostEnvironment.IsDapr())
+{
+    app.AddDapr();
+}
+else if (HostEnvironment.IsDocker())
+{
+    app.AddDocker();
 }
 ```
 
