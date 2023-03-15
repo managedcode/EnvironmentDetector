@@ -9,7 +9,7 @@
 
 
 EnvironmentDetector is a library that provides a simple way to detect whether your code is running in a test environment or not.
-It currently supports detecting Darp, Kubernetes, Docker, MSTest, NUnit, and xUnit.
+It currently supports detecting Dapr, Kubernetes, Docker, MSTest, NUnit, and xUnit.
 
 ## Installation
 
