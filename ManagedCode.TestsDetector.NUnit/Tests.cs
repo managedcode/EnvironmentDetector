@@ -1,5 +1,6 @@
 using ManagedCode.EnvironmentDetector;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
 
 namespace ManagedCode.TestsDetector.NUnit;
 
@@ -9,24 +10,24 @@ public class Tests
     [Test]
     public void TestDetectorTest()
     {
-        Assert.IsTrue(TestDetector.IsInTest);
+        ClassicAssert.IsTrue(TestDetector.IsInTest);
     }
     
     [Test]
     public void MSTestDetectorTest()
     {
-        Assert.IsFalse(MSTestDetector.IsInTest);
+        ClassicAssert.IsFalse(MSTestDetector.IsInTest);
     }
 
     [Test]
     public void NUnitDetectorTest()
     {
-        Assert.IsTrue(NUnitDetector.IsInTest);
+        ClassicAssert.IsTrue(NUnitDetector.IsInTest);
     }
 
     [Test]
     public void XUnitDetectorTest()
     {
-        Assert.IsFalse(XUnitDetector.IsInTest);
+        ClassicAssert.IsFalse(XUnitDetector.IsInTest);
     }
 }
